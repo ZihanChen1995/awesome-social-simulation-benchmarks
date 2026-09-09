@@ -12,10 +12,10 @@ Benchmarks and human ground-truth data for evaluating LLM-driven social simulati
 The word "benchmark" means three different things in this field. Comparing results across layers is how people end up citing an unrelated number:
 
 - **L1 — Individual fidelity.** One agent plays one real person. Does it answer the way that person answered?
-- **L2 — Interaction and social intelligence.** Several agents interact. Is the process and outcome any good?
+- **L2 — Interaction and social intelligence.** Several agents interact. Is the interaction any good?
 - **L3 — Emergent macro alignment.** A population runs. Do the collective patterns match real-world statistical regularities?
 
-Every entry carries a **Data** column: whether real human comparison data is actually obtainable. When picking something to validate against, that is the only question that matters, and a date-sorted list cannot answer it.
+Every entry carries a **Data** column saying whether real human comparison data is obtainable, and on what terms. That is what you need when you pick something to validate against, and a date-sorted list does not record it.
 
 ## Contents
 
@@ -58,7 +58,7 @@ Every entry carries a **Data** column: whether real human comparison data is act
 
 ## L3 Emergent Macro Alignment
 
-The thinnest layer, and most of it is welded to its own framework.
+The thinnest layer. Most entries only run inside their own framework.
 
 | Name | Data | Notes |
 |---|---|---|
@@ -71,7 +71,7 @@ The thinnest layer, and most of it is welded to its own framework.
 
 ## Human Ground-Truth Data
 
-Raw material, not benchmarks.
+Survey programs and data archives. You build the comparison out of these yourself.
 
 | Name | Data | Notes |
 |---|---|---|
@@ -90,7 +90,7 @@ Raw material, not benchmarks.
 
 ## General Evaluation Infrastructure
 
-Borrow the shape, not the content.
+Unrelated to social simulation; relevant for how they organize tasks and publish results.
 
 | Name | Notes |
 |---|---|
@@ -111,7 +111,7 @@ Borrow the shape, not the content.
 
 - Publicly addressable, and the link resolves.
 - The Data column states what you actually get: real human comparison data, synthetic scenarios, or evaluation code only.
-- It fits one of the three layers. If an entry does not fit, the taxonomy needs revising, not the entry forcing.
+- It fits one of the three layers. An entry that fits none of them means the taxonomy needs another layer; say so in the PR.
 
 ## State of the Field
 

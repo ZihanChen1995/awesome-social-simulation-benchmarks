@@ -21,8 +21,8 @@ One table row, three cells:
 ```
 
 - **Name** links to the paper or project page. Add ` · [code]` or ` · [dataset]` when those live elsewhere.
-- **Data** is the column that earns this list its keep. Say whether real human comparison data is obtainable, and under what terms: `20 datasets, downloadable from HF`, `1,052 interviews (restricted access)`, `evaluation code only`. "Comprehensive benchmark" is not an answer.
-- **Notes** is one sentence saying what this is good for or what it fails at. Numbers beat adjectives.
+- Fill in **Data** carefully; this list exists for that column. Say whether real human comparison data is obtainable, and under what terms: `20 datasets, downloadable from HF`, `1,052 interviews (restricted access)`, `evaluation code only`. "Comprehensive benchmark" is not an answer.
+- **Notes** is one sentence saying what this is good for or what it fails at. Write the number when there is one.
 
 Keep rows within a section in a sensible order; there is no strict sort.
 
@@ -59,8 +59,8 @@ Contributions are released under [CC0-1.0](LICENSE), same as the rest of the lis
 ```
 
 - **名字**链到论文或项目页。代码、数据在别处的话，补 ` · [代码]`、` · [数据]`。
-- **数据**这一列是这个列表存在的理由。写清楚能不能拿到真人对照数据、以什么条件拿：`20 个数据集，HF 可下`、`1052 人访谈（受限申请）`、`只有评测代码`。"全面的基准"不算回答。
-- **说明**一句话，讲它适合验证什么、或者它在哪儿不行。数字比形容词有用。
+- **数据**这一列要认真填，这个列表就是为它存在的。写清楚能不能拿到真人对照数据、以什么条件拿：`20 个数据集，HF 可下`、`1052 人访谈（受限申请）`、`只有评测代码`。"全面的基准"不算回答。
+- **说明**一句话，讲它适合验证什么、或者它在哪儿不行。有具体数字就写数字。
 
 同一分类内顺序合理即可，没有强制排序规则。
 
