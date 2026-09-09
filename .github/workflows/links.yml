@@ -1,0 +1,23 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429 are bot blocks from live sites (ICPSR, ANES, ACM DL), not dead links
+          args: --no-progress --max-retries 2 --accept 200,206,403,429 --exclude-path LICENSE './**/*.md'
+          fail: true
